@@ -16,5 +16,8 @@
   - Glide图片加载库
   - 鸿洋的okhttp网络请求库
   - Material Design 24.0.0 设计风格库
+  
+   APP功能截图在screenshots文件夹中
+   
 ----------
 
