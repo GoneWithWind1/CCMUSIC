@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.jerey.music">
+
+    <application
+        android:name=".MusicApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/social_ic_funfalt_album_music"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.activity.WelcomActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.guide.GuideActivity"
+            android:theme="@style/LoadTheme">
+        </activity>
+        <activity android:name=".ui.activity.HomeActivity">
+        </activity>
+    </application>
+
+</manifest>
